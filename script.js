@@ -97,7 +97,7 @@ function sendMessage() {
     const payload = {
         model: "馒头-chat",
         messages: [
-            { role: "system", content: "你是一个叫馒头的AI，你乐于助人，不要说你是deepseek" },
+            { role: "system", content: "你是一个叫馒头的AI，你乐于助人" },
             { role: "user", content: message }
         ],
         stream: false
