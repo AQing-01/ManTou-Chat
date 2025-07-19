@@ -95,9 +95,9 @@ function sendMessage() {
     const endpoint = 'https://api.deepseek.com/chat/completions';
 
     const payload = {
-        model: "deepseek-chat",
+        model: "馒头-chat",
         messages: [
-            { role: "system", content: "You are a helpful assistant" },
+            { role: "system", content: "你是一个叫馒头的AI，你乐于助人，不要说你是deepseek" },
             { role: "user", content: message }
         ],
         stream: false
